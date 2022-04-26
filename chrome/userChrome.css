@@ -11,14 +11,14 @@
 	border-radius: 10px;
 }
 .titlebar-button.titlebar-min > .toolbarbutton-icon {
-	background: #27c840 !important;
-  border-color: #27c83f7a !important;
+	background: #febb2e !important;
+  border-color: #febc2e7c !important;
 }
 
 .titlebar-button.titlebar-max > .toolbarbutton-icon,
 .titlebar-button.titlebar-restore > .toolbarbutton-icon {
-	background: #febb2e !important;
-  border-color: #febc2e7c !important;
+  background: #27c840 !important;
+  border-color: #27c83f7a !important;
 }
 
 .titlebar-button.titlebar-close > .toolbarbutton-icon {
@@ -37,17 +37,18 @@
 }
 .titlebar-button.titlebar-max:hover > .toolbarbutton-icon,
 .titlebar-button.titlebar-restore:hover > .toolbarbutton-icon {
-	background: #febc2e44 !important;
+
+  background: #27c83f38 !important;
   border: 1px solid;
-  border-color: #febb2e !important;
+  border-color: #27c840 !important;
 }
 .titlebar-button.titlebar-max:hover, .titlebar-button.titlebar-restore:hover {
 	background: #fdfdfd00 !important;
 }
 .titlebar-button.titlebar-min:hover > .toolbarbutton-icon {
-	background: #27c83f38 !important;
+	background: #febc2e44 !important;
   border: 1px solid;
-  border-color: #27c840 !important;
+  border-color: #febb2e !important;
 }
 .titlebar-button.titlebar-min:hover {
 	background: #fdfdfd00 !important;
@@ -191,7 +192,7 @@ See the above repository for updates as well as full license text. */
   transform: rotateX(0);
 }
 
-#nav-bar: + #PersonalToolbar,
+#nav-bar + #PersonalToolbar,
 #navigator-toolbox > #nav-bar{
   transition-delay: 100ms !important;
   transform: rotateX(0);
