@@ -231,3 +231,28 @@ See the above repository for updates as well as full license text. */
 }
 */
 
+#TabsToolbar {
+  direction: rtl;
+}
+
+#tabbrowser-tabs {
+  direction: ltr;
+}
+
+.titlebar-buttonbox {
+  display: flex;
+}
+
+.titlebar-min {
+  order: 2;
+}
+
+.titlebar-max {
+  order: 1;
+}
+
+.titlebar-close {
+  order: 3;
+  margin-right: 6px !important;
+}
+
